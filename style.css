@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 0;
+}
+
+.top-header p {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 0;
+}
+
+.links ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    list-style: none;
+    gap: 16px;
+}
+
+.SignUp h1 {
+    color: #F9FAF8;
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.SignUp {
+    width: 500px;
+}
+
+.SignUp button {
+    background-color: #3882F6;
+    border: 0px;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 8px;
+}
+
+.SignUp p, header li {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    padding: 60px;
+}
+
+.hero img {
+    width: 400px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin: 42px;
+}
+
+.information h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.images {
+    width: 150px;
+}
+
+.images img {
+    border: #3882F6 solid 5px;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 90px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.signature {
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+.ActionCall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.secondsignup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 900px;
+    border-radius: 12px;
+    color: white;
+    padding: 42px;
+    gap: 32px;
+}
+
+.signbutton button {
+    border: 3px solid white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    padding: 12px 32px;
+}
+
+.left-signup h3, .left-signup p{
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    padding: 24px;
+    background-color: #1F2937;
+    word-spacing: 5px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
